@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+ background-color: green;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.status{
+  display: block;
+  text-align: center;
+}
